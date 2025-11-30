@@ -38,7 +38,7 @@ zed-go-restclient --requests_file requests_schema.json --name "Name of your requ
 
 ## Integrating with Zed Tasks:
 
-To integrate with Zed tags feature, first, open the tasks settings in Zed.
+To integrate with Zed tasks feature, first, open the tasks settings in Zed.
 
 Shortcut
 
