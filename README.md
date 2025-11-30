@@ -54,7 +54,7 @@ Append the following contents into array of tasks.json file:
 ```json
 {
   "label": "RestClient - Make Request",
-  "command": "restclient --requests_file $ZED_FILE --name \"$ZED_SELECTED_TEXT\"",
+  "command": "zed-go-restclient --requests_file $ZED_FILE --name \"$ZED_SELECTED_TEXT\"",
   "show_command": false,
   "show_summary": true,
   "shell": {
@@ -63,7 +63,7 @@ Append the following contents into array of tasks.json file:
 },
 {
   "label": "RestClient - Generate Schema",
-  "command": "restclient --gen_schema",
+  "command": "zed-go-restclient --gen_schema",
   "show_command": false,
   "show_summary": false,
   "shell": {
